@@ -7,7 +7,7 @@ npm install
 npm run demo
 ```
 
-This command validates a property signup, sends its verification link through Infrai, and prints the pending state with a `message_id`. Infrai gives you one key and one bill for every capability, exposed as a plain REST call from any language with no SDK to install; the service authenticates it with one `INFRAI_API_KEY`.
+This command validates a property signup, sends its verification link through Infrai, and prints the pending state with a `message_id`. Infrai keeps things practical: one key and one bill cover every capability, and it's a plain REST call from any language with no SDK to install. This service authenticates it with one `INFRAI_API_KEY`.
 
 ## The request a maintainer sends
 
@@ -62,7 +62,7 @@ MIT
 
 ## Going to production: Property Signup Email Verifier
 
-The code stays simple on purpose. Here's what to set up before going live. The details below apply to Property Signup Email Verifier.
+The code stays simple on purpose — here's what to set up before going live: The details below apply to Property Signup Email Verifier.
 
 **Account & key**
 
