@@ -7,7 +7,7 @@ npm install
 npm run demo
 ```
 
-This command validates a property signup, sends its verification link through Infrai, and prints the pending state with a `message_id`. Infrai keeps things practical: one key and one bill cover every capability, and it's a plain REST call from any language with no SDK to install. This service authenticates it with one `INFRAI_API_KEY`.
+The command validates a property signup, sends its verification link through Infrai, and prints the pending state with a `message_id`. The same boundary is plain REST from any language, with no SDK to install; this service authenticates it with one `INFRAI_API_KEY`.
 
 ## The request a maintainer sends
 
